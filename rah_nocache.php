@@ -1,15 +1,17 @@
-<?php	##################
-	#
-	#	rah_nocache-plugin for Textpattern
-	#	version 0.2
-	#	by Jukka Svahn
-	#	http://rahforum.biz
-	#
-	#	Copyright (C) 2011 Jukka Svahn <http://rahforum.biz>
-	#	Licensed under GNU Genral Public License version 2
-	#	http://www.gnu.org/licenses/gpl-2.0.html
-	#
-	###################
+<?php
+
+/**
+ * Rah_nocache plugin for Textpattern CMS
+ *
+ * @author Jukka Svahn
+ * @date 2009-
+ * @license GNU GPLv2
+ * @link http://rahforum.biz/plugins/rah_nocache
+ *
+ * Copyright (C) 2012 Jukka Svahn <http://rahforum.biz>
+ * Licensed under GNU Genral Public License version 2
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ */
 
 	if(@txpinterface == 'admin') {
 		rah_nocache();
@@ -17,8 +19,8 @@
 	}
 
 /**
-	Send no-cache headers.
-*/
+ * Send no-cache headers.
+ */
 
 	function rah_nocache() {
 		header('Cache-Control: no-store, no-cache, must-revalidate, pre-check=0, post-check=0, max-age=0');
@@ -28,8 +30,8 @@
 	}
 
 /**
-	Add meta elements to the <head>
-*/
+ * Add meta elements to the <head>
+ */
 
 	function rah_nocache_head() {
 		echo 
