@@ -1,32 +1,45 @@
 h1. rah_nocache
 
-p. A simple "Textpattern":http://www.textpattern.com plugin that tries to force no-cache headers to the backend pages. By this we try to remove all browser caching that could destroy the admin's site management work. Usually the admin doesn't want to cache the backend editor forms. Note that if the browser ignores headers, the plugin won't work.
+p. A simple "Textpattern":http://www.textpattern.com plugin that tries to force no-cache headers to admin-side pages. By this we try to remove all browser caching that could destroy the admin's site management work. Usually backend editor forms and informative pages shouldn't be cached, but should contain the most up-to-date information as possible. Note that if the browser ignores headers, the plugin won't work.
 
-* Version: 0.1
-* Updated: 2009/06/03 9:10 PM GMT+3
+* Version: 0.2
+* Updated: 2011/10/30 1:00 AM UTC
 
 h3. Table of Contents
 
 * "List of features":#list-of-features
 * "Requirements":#requirements
 * "Installation and usage":#installation-and-usage
+* "Changelog":#changelog
 
 h3(#list-of-features). List of features
 
-* Sends some tasty no-cache headers to the browser.
+* Sends some tasty no-cache headers to web browsers admin-side user.
 * The plan is to prevent unwanted backend interface caching.
 
 h3(#requirements). Requirements
 
-* Textpattern 4.x.x
-* PHP 4.3.0+
+p. Rah_nocache's minimum requirements
 
-p. Recommended:
+* Textpattern 4.0.7 or newer
 
-* Textpattern 4.0.8+
-* PHP 5.1.2+
+p. Recommended
+
+* Textpattern 4.4.1 or newer.
 
 h3(#installation-and-usage). Installation and usage
 
 # Paste plugin code to the plugin installer textarea and run the automatic setup.
 # Then just activate the plugin and the headers are installed.
+
+h3(#changelog). Changelog
+
+p. *Version 0.2*
+
+* Added license to the header comment block.
+* Added some comments to the code.
+* Updated help file.
+
+p. *Version 0.1*
+
+* Initial release.
