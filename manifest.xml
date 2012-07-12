@@ -3,7 +3,7 @@
 	<name>rah_nocache</name>
 	<description>Prevent client-side caching on admin-side panels</description>
 	
-	<version>0.2</version>
+	<version>0.3</version>
 	<type>3</type>
 	
 	<author>Jukka Svahn</author>

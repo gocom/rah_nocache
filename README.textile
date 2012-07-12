@@ -24,7 +24,7 @@ p. The general behavior stands when it comes to installing rah_nocache.
 
 h2. Changelog
 
-h3. Version 0.3 - upcoming
+h3. Version 0.3 - 2012/07/12
 
 * Some minor clean up, and updated to new source structure.
 
