@@ -15,7 +15,7 @@
 
 	if(@txpinterface == 'admin') {
 		rah_nocache();
-		register_callback('rah_nocache_head','admin_side','head_end');
+		register_callback('rah_nocache_head', 'admin_side', 'head_end');
 	}
 
 /**
@@ -34,10 +34,8 @@
  */
 
 	function rah_nocache_head() {
-		echo 
-			n.n.
-				'	<meta http-equiv="Expires" content="Sat, 24 Jul 2003 05:00:00 GMT" />'.n.
-				'	<meta http-equiv="Pragma" content="no-cache" />'.n.n
-			;
+		echo n.
+			'<meta http-equiv="Expires" content="Sat, 24 Jul 2003 05:00:00 GMT" />'.n.
+			'<meta http-equiv="Pragma" content="no-cache" />'.n;
 	}
 ?>
