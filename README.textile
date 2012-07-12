@@ -4,20 +4,29 @@ p. A simple "Textpattern":http://www.textpattern.com plugin that tries to force 
 
 h2. Requirements
 
-p. Rah_nocache's minimum requirements
+p. Rah_nocache's minimum requirements:
 
-* Textpattern 4.0.7 or newer
+* Textpattern 4.0.7 or newer.
 
-p. Recommended
+p. Recommended:
 
 * Textpattern 4.4.1 or newer.
 
-h2. Installation and usage
+h2. Installing
 
-# Paste plugin code to the plugin installer textarea and run the automatic setup.
-# Then just activate the plugin and the headers are installed.
+p. The general behavior stands when it comes to installing rah_nocache.
+
+# Download and copy the plugin installation file contents.
+# Navigate to "Plugins":http://textpattern.net/wiki/index.php?title=Plugins panel and paste it into the _Install plugin_ field, and click _Upload_.
+# You will be shown a preview of the plugin and its documentation. Click *Install* at the bottom of the page.
+# You will be returned to the plugin list when the plugin has been installed. Now activate the plugin by clicking its *No* link, which toggles the status to *Yes* and actives it.
+# Plugin is now installed and activated, and is in work.
 
 h2. Changelog
+
+h3. Version 0.3 - upcoming
+
+* Some minor clean up, and updated to new source structure.
 
 h3. Version 0.2 - 2011/10/30
 
