@@ -15,7 +15,6 @@
 
 	if(@txpinterface == 'admin') {
 		rah_nocache();
-		register_callback('rah_nocache_head', 'admin_side', 'head_end');
 	}
 
 /**
@@ -27,15 +26,5 @@
 		header('Expires: Sat, 24 Jul 2003 05:00:00 GMT');
 		header('Last-Modified: '.gmdate('D, d M Y H:i:s').' GMT');
 		header('Pragma: no-cache');
-	}
-
-/**
- * Add meta elements to the <head>
- */
-
-	function rah_nocache_head() {
-		echo n.
-			'<meta http-equiv="Expires" content="Sat, 24 Jul 2003 05:00:00 GMT" />'.n.
-			'<meta http-equiv="Pragma" content="no-cache" />'.n;
 	}
 ?>
