@@ -6,11 +6,8 @@ h2. Requirements
 
 p. Rah_nocache's minimum requirements:
 
-* Textpattern 4.0.7 or newer.
-
-p. Recommended:
-
-* Textpattern 4.4.1 or newer.
+* Textpattern 4.x
+* PHP 5.2
 
 h2. Installing
 
@@ -23,6 +20,11 @@ p. The general behavior stands when it comes to installing rah_nocache.
 # Plugin is now installed and activated, and is in work.
 
 h2. Changelog
+
+h3. Version 0.4 - upcoming
+
+* Improved: HTML5 validity.
+* Now requires PHP 5.2 or newer.
 
 h3. Version 0.3 - 2012/07/12
 
