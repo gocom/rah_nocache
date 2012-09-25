@@ -12,13 +12,14 @@ p. Rah_nocache's minimum requirements:
 
 h2. Installing
 
-p. The general behavior stands when it comes to installing rah_nocache.
+p. Rah_nocache's installation follows the standard plugin installation steps.
 
-# Download and copy the plugin installation file contents.
-# Navigate to "Plugins":http://textpattern.net/wiki/index.php?title=Plugins panel and paste it into the _Install plugin_ field, and click _Upload_.
-# You will be shown a preview of the plugin and its documentation. Click *Install* at the bottom of the page.
-# You will be returned to the plugin list when the plugin has been installed. Now activate the plugin by clicking its *No* link, which toggles the status to *Yes* and actives it.
-# Plugin is now installed and activated, and is in work.
+# Download the plugin installation code.
+# Copy and paste the installation code into the _Install plugin_ box of your Textpattern Plugin pane.
+# Run the automated setup.
+# After the setup is done, activate the plugin. Done.
+
+p. The plugin is now installed and activated, and is in work.
 
 h2. Changelog
 
