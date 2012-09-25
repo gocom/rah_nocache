@@ -6,8 +6,7 @@ h2. Requirements
 
 p. Rah_nocache's minimum requirements:
 
-* Textpattern 4.x
-* PHP 5.2
+* Textpattern 4.5.0
 
 h2. Installing
 
@@ -24,7 +23,8 @@ h2. Changelog
 h3. Version 0.4 - upcoming
 
 * Improved: HTML5 validity.
-* Now requires PHP 5.2 or newer.
+* Improved: Prevents caching on Ajax responses.
+* Now requires Textpattern 4.5.0 or newer.
 
 h3. Version 0.3 - 2012/07/12
 
