@@ -2,7 +2,7 @@ h1. rah_nocache
 
 p. "Project page":http://rahforum.biz/plugins/rah_nocache | "Twitter":http://twitter.com/gocom | "GitHub":https://github.com/gocom/rah_nocache | "Support forum":http://forum.textpattern.com/viewtopic.php?id=30963 | "Donate":http://rahforum.biz/donate/rah_nocache
 
-p. A simple "Textpattern":http://www.textpattern.com plugin that tries to force no-cache headers to admin-side pages. By this we try to remove all browser caching that could destroy the admin's site management work. Usually backend editor forms and informative pages shouldn't be cached, but should contain the most up-to-date information as possible. Note that if the browser ignores headers, the plugin won't work.
+p. Rah_nocache is a simple plugin for "Textpattern CMS":http://www.textpattern.com which tries to prevent client-side and proxy caching of admin-side editor forms by sending no-cache HTTP response headers. By this we try to remove all browser caching that could destroy the admin's site management work. Usually backend editor forms and dynamically changing, informative pages shouldn't be cached, but should contain the most up-to-date information as possible.
 
 h2. Requirements
 
