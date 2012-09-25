@@ -8,7 +8,7 @@ h2. Requirements
 
 p. Rah_nocache's minimum requirements:
 
-* Textpattern 4.5.0
+* Textpattern 4.5.0 or newer.
 
 h2. Installing
 
