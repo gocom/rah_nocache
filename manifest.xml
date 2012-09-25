@@ -4,7 +4,7 @@
 	<description>Prevent client-side caching on admin-side panels</description>
 	
 	<version>0.3</version>
-	<type>3</type>
+	<type>4</type>
 	
 	<author>Jukka Svahn</author>
 	<author_uri>http://rahforum.biz</author_uri>
