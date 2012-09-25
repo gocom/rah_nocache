@@ -28,13 +28,13 @@ h3. Version 0.4 - upcoming
 
 h3. Version 0.3 - 2012/07/12
 
-* Some minor clean up, and updated to new source structure.
+* Improved: Some minor clean up, and updated to new source structure.
 
 h3. Version 0.2 - 2011/10/30
 
-* Added license to the header comment block.
-* Added some comments to the code.
-* Updated help file.
+* Added: License to the header comment block.
+* Added: Some comments to the code.
+* Updated: Help file.
 
 h3. Version 0.1 - 2009/06/03
 
