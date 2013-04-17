@@ -13,9 +13,7 @@
  * http://www.gnu.org/licenses/gpl-2.0.html
  */
 
-	if(txpinterface == 'admin') {
-		new rah_nocache();
-	}
+	new rah_nocache();
 
 class rah_nocache {
 
