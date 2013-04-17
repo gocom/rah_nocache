@@ -1,0 +1,11 @@
+{
+	"name"        : "rah_nocache",
+	"description" : "Prevent client-side caching on admin-side panels",
+	"version"     : "0.3",
+	"type"        : 4,
+	"author"      : "Jukka Svahn",
+	"author_uri"  : "http://rahforum.biz",
+	"order"       : 5,
+	"flags"       : 0,
+	"help"        : {"file" : ["./README.textile"]}
+}
