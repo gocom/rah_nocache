@@ -38,5 +38,3 @@ class rah_nocache {
 		header('Pragma: no-cache');
 	}
 }
-
-?>
