@@ -23,7 +23,7 @@ p. The plugin is now installed and activated, and is in work.
 
 h2. Changelog
 
-h3. Version 0.4 - upcoming
+h3. Version 0.4.0 - upcoming
 
 * Improved: HTML5 validity.
 * Improved: Prevents caching on Ajax responses.
