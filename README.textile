@@ -25,7 +25,7 @@ p. The plugin is now installed and activated, and is doing its job.
 
 h2. Changelog
 
-h3. Version 0.4.0 - upcoming
+h3. Version 0.4.0 - 2013/04/17
 
 * Improved: HTML5 validity.
 * Improved: Prevents caching on Ajax, asynchronous and other script responses.
