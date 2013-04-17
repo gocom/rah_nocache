@@ -16,7 +16,7 @@
 class rah_nocache
 {
 	/**
-	 * Constructor
+	 * Constructor.
 	 */
 
 	public function __construct()
