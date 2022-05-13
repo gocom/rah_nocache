@@ -2,28 +2,27 @@ h1. rah_nocache
 
 p. "Project page":http://rahforum.biz/plugins/rah_nocache | "Twitter":http://twitter.com/gocom | "GitHub":https://github.com/gocom/rah_nocache | "Support forum":http://forum.textpattern.com/viewtopic.php?id=30963 | "Donate":http://rahforum.biz/donate/rah_nocache
 
-p. Rah_nocache is a simple plugin for "Textpattern CMS":http://www.textpattern.com which tries to prevent client-side and proxy caching of admin-side editor forms by sending no-cache HTTP response headers. The plugin tries to remove all unwanted browser and proxy caching that could break admin-side panels functionality by redirecting requests to your local cache instead of showing the live pages. Usually important control panels and dynamically changing, informative pages shouldn't be cached, but should contain the most up-to-date information.
+Rah_nocache is a simple plugin for "Textpattern CMS":https://textpattern.com which tries to prevent client-side and proxy caching of admin-side editor forms by sending no-cache HTTP response headers. The plugin tries to remove all unwanted browser and proxy caching that could break admin-side panels functionality by redirecting requests to your local cache instead of showing the live pages. Usually important control panels and dynamically changing, informative pages shouldn't be cached, but should contain the most up-to-date information.
 
-p. Getting rah_nocache up and running is super simple. Just upload the plugin to your Textpattern installation and activate it. Zero configuration or extra steps required.
+h2. Install
 
-h2. Requirements
+Using "Composer":https://getcomposer.org:
 
-p. Rah_nocache's minimum requirements:
+bc. $ composer require rah/rah_nocache
 
-* Textpattern 4.5.0 or newer.
+Or "download":https://github.com/gocom/rah_nocache/releases an installer package.
 
-h2. Installing
+h2. Usage
 
-p. Rah_nocache's installation follows the standard plugin installation steps.
-
-# Download the plugin installation code.
-# Copy and paste the installation code into the _Install plugin_ box of your Textpattern Plugin pane.
-# Run the automated setup.
-# After the setup is done, activate the plugin. Done.
-
-p. The plugin is now installed and activated, and is doing its job.
+Plug-and-play. No configuration is required after installing it.
 
 h2. Changelog
+
+h3. Version 0.5.0 - 2022/05/13
+
+* Repackaged 0.4.0 as a Composer package.
+* Internal: updated code-styling and development environment.
+* Now requires PHP >= 7.4.0.
 
 h3. Version 0.4.0 - 2013/04/17
 
