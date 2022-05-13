@@ -18,7 +18,6 @@
     },
     "require": {
         "php": ">=7.4",
-        "ext-zlib": "*",
         "textpattern/lock": ">=4.5.0",
         "textpattern/installer": "*"
     },

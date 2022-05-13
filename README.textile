@@ -1,6 +1,6 @@
 h1. rah_nocache
 
-"Download":https://github.com/gocom/rah_nocache/releases | "Issues":https://github.com/gocom/rah_nocache
+"Download":https://github.com/gocom/rah_nocache/releases | "Issues":https://github.com/gocom/rah_nocache | "Packagist":https://packagist.org/packages/rah/rah_nocache
 
 Rah_nocache is a simple plugin for "Textpattern CMS":https://textpattern.com which tries to prevent client-side and proxy caching of admin-side editor forms by sending no-cache HTTP response headers. The plugin tries to remove all unwanted browser and proxy caching that could break admin-side panels functionality by redirecting requests to your local cache instead of showing the live pages. Usually important control panels and dynamically changing, informative pages shouldn't be cached, but should contain the most up-to-date information.
 
